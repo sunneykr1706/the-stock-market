@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0415aa;
+  color: white;
+}
+
+  #income {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#income td, #income th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#income tr:nth-child(even){background-color: #f2f2f2;}
+
+#income tr:hover {background-color: #ddd;}
+
+#income th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0415aa;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <script type="text/javascript" src="fundamental.js" ></script>
+<h1>
+    BALANCE SHEET : <span id="hel"/>
+</h1>
+<table id="customers">
+  <tr>
+    <th>Terms</th>
+    <th>30/03/2021</th>
+  </tr>
+  <tr>
+    <td>
+        Total Cash (mrq)</td>
+    <td><span id="tcash"/></td>
+  </tr>
+  <tr>
+    <td>Total Debt (mrq)</td>
+    <td><span id="tdebt"/></td>
+  
+  </tr>
+  <tr>
+    <td>Total Cash Per Share (mrq)</td>
+    <td><span id="tper"/></td>
+
+  </tr>
+  <tr>
+    <td>Total Debt/Equity (mrq)</td>
+    <td><span id="trat"/></td>
+  
+  </tr>
+  <tr>
+    <td>Current Ratio (mrq)</td>
+    <td><span id="tcr"/></td>
+
+  </tr>
+  <tr>
+    <td>Profit Margin (mrq)</td>
+    <td><span id="bkp"/></td>
+  </tr>
+  <tr>
+    <td>Revenue Growth (mrq)</td>
+    <td><span id="bkpw"/></td>
+  </tr>
+  <tr>
+   
+</table>
+<br>
+</br>
+<br>
+</br>
+<h2>
+    Income Statement:
+</h2>
+
+
+<table id="income">
+    <tr>
+      <th>Terms</th>
+      <th>Value (30/03/2021)</th>
+    </tr>
+    <tr>
+      <td>
+          
+Revenue (ttm)</td>
+      <td><span id="Revenue (ttm)"/></td>
+    </tr>
+    <tr>
+      <td>Revenue Per Share (ttm)</td>
+      <td><span id="Revenue Per Share (ttm)"/></td>
+    
+    </tr>
+    <tr>
+      <td>Quarterly Revenue Growth (yoy)</td>
+      <td><span id="Quarterly Revenue Growth (yoy)"/></td>
+  
+    </tr>
+    <tr>
+      <td>Gross Profit (ttm)</td>
+      <td><span id="Gross Profit (ttm)"/></td>
+    
+    </tr>
+    <tr>
+      <td>EBITDA</td>
+      <td><span id="EBITDA"/></td>
+  
+    </tr>
+    <tr>
+      <td>Net Income Avi to Common (ttm)</td>
+      <td><span id="Net Income Avi to Common (ttm)"/></td>
+    </tr>
+    <tr>
+      <td>Diluted EPS (ttm)</td>
+      <td><span id="Diluted EPS (ttm)"/></td>
+    </tr>
+    <tr>
+        <td>Quarterly Earnings Growth (yoy)</td>
+        <td><span id="Quarterly Earnings Growth (yoy)"/></td>
+      </tr>
+    <tr>
+     
+  </table>
+  
+<br/>
+
+</body>
+</html>
