@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            ABOUT STOCK
+        </title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="result.js" ></script>
+    </head>
+    <body>
+        <h1>
+          ABOUT STOCK
+        </h1>
+        <h2>
+            Name:   <span id="result-name" />
+        </h2>
+        <h3>
+            Previous Day Closing: <span id="result-surname" />
+        </h3>
+        <h4>
+            Sector: <span id="sector" />
+        </h4>
+        
+        <h5>
+            Website: <span id="news" />
+        </h5>
+        <h6>
+            About: <span id="about" />
+        </h6>
+        <form action=fundamental.html method="POST">
+            <div class="input-field third-wrap">
+                <button class="fs" type="submit" onclick="handleSubmit()">FUNDAMENTAL</button>
+              </div>
+        </form>
+        <form action=technical.html method="POST">
+            <div class="input-field third-wrap">
+                <button class="ts" type="submit" onclick="handleSubmit()">TECHNICAL</button>
+              </div>
+        </form>
+        
+        </form>
+        
+    </body>
+</html>
